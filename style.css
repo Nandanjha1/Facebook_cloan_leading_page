@@ -1,0 +1,84 @@
+.nav {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.logo {
+    width: 28px;
+    background-color: rgb(59, 59, 198);
+    border-radius: 30px;
+    margin: 4px 0 3px 40px;
+    padding-left: 6px;
+    padding-top: 6px;
+    align-content: center;
+    font-size: 21px;
+}
+
+.search {
+    width: 15%;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 5px 11px;
+    padding: 3px;
+    display: flex;
+}
+
+.selo {
+    margin-top: 4px;
+}
+
+input {
+    width: 90%;
+    border-radius: 10px;
+    border: hidden;
+    font-size: 14px;
+}
+
+.menu {
+    width: 500px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 21px;
+    align-items: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+section {
+    background-color: rgb(195, 216, 209);
+    display: grid;
+    grid-template-columns: 20% 40% 25%;
+    gap: 10px;
+    justify-content: center;
+}
+
+.left {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+
+}
+
+.left>div {
+    font-size: 20px;
+}
+
+.first {
+    text-align: center;
+}
+
+.second {
+    text-align: left;
+}
+
+.middle {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.right {
+    border: 1px solid black;
+    padding: 10px;
+}
