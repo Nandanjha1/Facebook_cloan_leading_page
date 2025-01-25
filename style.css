@@ -9,6 +9,7 @@ body {
     padding-top: 5px;
     display: flex;
     background-color: #ffffff;
+    position: fixed;
 }
 
 .logo {
@@ -60,18 +61,19 @@ input {
 }
 
 section {
-    display: grid;
-    grid-template-columns: 20% 40% 25%;
+    display: flex;
     gap: 120px;
-    justify-content: center;
 }
 
 .left {
+    width: 20%;
+    height: 600px;
     padding: 10px;
+    margin-top: 70px;
     text-align: left;
     display: inline-grid;
     grid-template-columns: auto auto;
-
+    /* position: fixed; */
 }
 
 .left>div {
@@ -99,7 +101,9 @@ section {
 }
 
 .middle {
+    width: 42.6%;
     padding: 10px;
+    margin-top: 70px;
 }
 
 .top {
@@ -121,7 +125,7 @@ section {
 
 .top1 input {
     background-color: #f1f0f0;
-    width: 460px;
+    width: 520px;
     height: 40px;
     margin-left: 20px;
     border-radius: 50px;
@@ -129,6 +133,7 @@ section {
 
 .top2 {
     width: 100%;
+    margin-left: 22px;
     display: inline-grid;
     grid-template-columns: auto auto auto;
     grid-template: space-between;
@@ -172,6 +177,7 @@ section {
 .story-box img {
     max-width: 100%;
     max-height: 100%;
+    min-height: 200px;
     border-radius: 8px;
 }
 
@@ -180,7 +186,9 @@ section {
 }
 
 .right {
+    width: 22%;
     padding: 10px;
+    margin-top: 70px;
 }
 
 .side1 {
@@ -191,4 +199,23 @@ section {
 .side1 i {
     font-size: 29px;
     padding: 10px;
+}
+
+.render {
+    gap: 10px;
+    text-align: center;
+}
+
+.content-box {
+    width: 100%;
+    height: 750px;
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
