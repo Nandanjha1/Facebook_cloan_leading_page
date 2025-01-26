@@ -1,8 +1,8 @@
 const stories = [
     { type: 'image', content: 'Pic.jpeg' },
-    { type: 'image', content: 'https://www.facebook.com/stories/100855268466880/UzpfSVNDOjE4NDkxODI2NDIxNTUzNzM=/?bucket_count=9&source=story_tray' },
-    { type: 'image', content: 'https://www.facebook.com/stories/208441866503809/UzpfSVNDOjE3ODg1ODA4NzUwNDU0NzY=/?bucket_count=9&source=story_tray' },
-    { type: 'image', content: 'https://via.placeholder.com/200x300?text=Story+3' }
+    { type: 'image', content: 'https://images.unsplash.com/photo-1737789360528-41739906f937?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1736877967709-66b2648c3a62?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1579596249184-a56e5c60f62d?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }
 ];
 
 function renderStories(storyData) {
@@ -26,11 +26,11 @@ function renderStories(storyData) {
     });
 }
 
-// Render the stories
 renderStories(stories);
 
 const postmessage = [
-    { type: 'image', content: 'post.png' }
+    { type: 'image', content: 'post.png' },
+    { type: 'image', content: 'post1.png' }
 ];
 function contentData(post) {
     const container = document.getElementById("content-container");
