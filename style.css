@@ -43,18 +43,18 @@ input {
 }
 
 .menu {
-    width: 500px;
-    margin-left: 100px;
+    width: 680px;
+    margin-left: 90px;
     text-align: center;
     font-size: 26px;
     align-items: center;
     display: inline-grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 .navigation {
     width: 200px;
-    margin-left: 330px;
+    margin-left: 170px;
     font-size: 35px;
     text-align: right;
     display: inline-grid;
