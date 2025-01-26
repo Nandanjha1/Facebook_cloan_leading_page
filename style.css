@@ -2,6 +2,7 @@ body {
     background-color: #efeeee;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 .nav {
@@ -69,11 +70,12 @@ section {
     width: 20%;
     height: 600px;
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 60px;
     text-align: left;
     display: inline-grid;
     grid-template-columns: auto auto;
-    /* position: fixed; */
+    position: fixed;
+    left: 0;
 }
 
 .left>div {
@@ -103,7 +105,7 @@ section {
 .middle {
     width: 42.6%;
     padding: 10px;
-    margin-top: 70px;
+    margin: 60px 413px;
 }
 
 .top {
@@ -187,8 +189,10 @@ section {
 
 .right {
     width: 22%;
-    padding: 10px;
-    margin-top: 70px;
+    padding: 5px;
+    margin-top: 60px;
+    position: fixed;
+    right: 0;
 }
 
 .side1 {
@@ -218,4 +222,20 @@ section {
     text-align: center;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.side2 {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.side2 img {
+    width: 35px;
+    height: 35px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+.fn {
+    padding: 10px;
 }
